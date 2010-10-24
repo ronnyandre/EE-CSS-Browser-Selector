@@ -10,7 +10,7 @@ The following code returns CSS selectors:
 Or you can provide the user agent as a string:
 {exp:css_browser_selector agent="Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0)"}
 
-Keep in mind that you can use ExpressionEngine's own Referrer module function {ref_agent}:
+Keep in mind that you can use ExpressionEngine's own Referrer module variable {ref_agent}:
 {exp:css_browser_selector agent="{ref_agent}"}
 
 
