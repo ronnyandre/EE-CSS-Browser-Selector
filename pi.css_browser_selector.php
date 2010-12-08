@@ -2,7 +2,7 @@
 
 $plugin_info = array(
 	'pi_name'        => 'CSS Browser Selector',
-	'pi_version'     => '1.0',
+	'pi_version'     => '1.0.1',
 	'pi_author'      => 'Ronny-André Bendiksen',
 	'pi_author_url'  => 'http://ronny-andre.no',
 	'pi_description' => 'Returns the visitors operating system and browser as CSS browser selectors to use in your HTML.',
@@ -52,21 +52,23 @@ class CSS_Browser_Selector {
 		if (strstr($ua, 'j2me')) {
 			$b[] = 'mobile';
 		} else if (strstr($ua, 'iphone')) {
-			$b[] = 'iphone';		
+			$b[] = 'iphone';
+		} else if (strstr($ua, 'ipad')) {
+			$b[] = 'ipad';
 		} else if (strstr($ua, 'ipod')) {
-			$b[] = 'ipod';		
+			$b[] = 'ipod';
 		} else if (strstr($ua, 'mac')) {
-			$b[] = 'mac';		
+			$b[] = 'mac';
 		} else if (strstr($ua, 'darwin')) {
-			$b[] = 'mac';		
+			$b[] = 'mac';
 		} else if (strstr($ua, 'webtv')) {
-			$b[] = 'webtv';		
+			$b[] = 'webtv';
 		} else if (strstr($ua, 'win')) {
-			$b[] = 'win';		
+			$b[] = 'win';
 		} else if (strstr($ua, 'freebsd')) {
-			$b[] = 'freebsd';		
+			$b[] = 'freebsd';
 		} else if (strstr($ua, 'x11') || strstr($ua, 'linux')) {
-			$b[] = 'linux';		
+			$b[] = 'linux';
 		}
 		
 		$this->return_data = join(' ', $b);

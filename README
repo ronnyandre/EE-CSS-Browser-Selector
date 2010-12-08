@@ -23,6 +23,17 @@ If empty, ExpressionEngine will use PHP's own $_SERVER['HTTP_USER_AGENT'] variab
 
 
 =====================================================
+Changelog
+=====================================================
+
+1.0.1
+Added support for Mobile Safari on iPad.
+
+1.0
+Initial release, no changes from the original PHP script by Bastian Allgeier.
+
+
+=====================================================
 Credits
 =====================================================
 
