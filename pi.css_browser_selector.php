@@ -71,6 +71,21 @@ class CSS_Browser_Selector {
 			$b[] = 'linux';
 		}
 		
+		// windows version
+		if (strstr($ua, 'windows nt 4.0')) {
+			$b[] = 'winnt4';
+		} else if (strstr($ua, 'windows nt 5.0')) {
+			$b[] = 'win2k';
+		} else if (strstr($ua, 'windows nt 5.1') || strstr($ua, 'windows nt 5.2')) {
+			$b[] = 'winxp';
+		} else if (strstr($ua, 'windows nt 6.0')) {
+			$b[] = 'winvista';
+		} else if (strstr($ua, 'windows nt 6.1')) {
+			$b[] = 'win7';
+		} else if (strstr($ua, 'windows nt 6.2')) {
+			$b[] = 'win8';
+		}
+		
 		$this->return_data = join(' ', $b);
 	}
 	

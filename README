@@ -26,6 +26,9 @@ If empty, ExpressionEngine will use PHP's own $_SERVER['HTTP_USER_AGENT'] variab
 Changelog
 =====================================================
 
+1.1
+Added selectors for Windows NT 4, Windows 2000, Windows XP, Windows Vista, Windows 7 and Windows 8. Now you can use the following selectors: winnt4, win2k, winxp, winvista, win7, win8.
+
 1.0.1
 Added support for Mobile Safari on iPad.
 
