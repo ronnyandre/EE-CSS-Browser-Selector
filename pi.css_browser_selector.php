@@ -2,7 +2,7 @@
 
 $plugin_info = array(
 	'pi_name'        => 'CSS Browser Selector',
-	'pi_version'     => '1.0.1',
+	'pi_version'     => '1.1',
 	'pi_author'      => 'Ronny-André Bendiksen',
 	'pi_author_url'  => 'http://ronny-andre.no',
 	'pi_description' => 'Returns the visitors operating system and browser as CSS browser selectors to use in your HTML.',
@@ -119,7 +119,7 @@ If empty, ExpressionEngine will use PHP's own $_SERVER['HTTP_USER_AGENT'] variab
 Credits
 =====================================================
 
-This is an ExpressionEngine port of Bastian Allgeier's PHP CSS Browser Selector. (Which is then a port of Rafael Lima's Javascript CSS Browser Selector.)
+This is an ExpressionEngine port of Bastian Allgeier's PHP CSS Browser Selector. (Which is then a port of Rafael Lima's JavaScript CSS Browser Selector.)
 
 Bastian Allgeier
 http://bastian-allgeier.de/css_browser_selector
